@@ -1,0 +1,26 @@
+{
+  "id": "9bf0fce3-aa94-4817-84b0-f60b3f175543",
+  "checklists": [
+    {
+      "id": "5e26188c-c012-4532-8e5c-99dc9f4018d0",
+      "name": "Jax Packing List",
+      "items": [
+        "4 shirts",
+        "Pants",
+        "Wallet",
+        "Car Charger",
+        "Running shoes"
+      ]
+    },
+    {
+      "id": "39083bf7-a674-4665-ba7b-c463dbb455f6",
+      "name": "Camping Checklist",
+      "items": [
+        "Cup",
+        "Sun Screen",
+        "Wallet",
+        "Car Charger"
+      ]
+    }
+  ]
+}
