@@ -9,4 +9,12 @@ class ChecklistService {
     User user = await fileWriter.readUser();
     return user.checklists;
   }
+
+  static writeChecklist(Checklist checklist) async {
+    await fileWriter.writeChecklist(checklist);
+  }
+
+  static updateChecklist(Checklist checklist) async {
+    await fileWriter.updateChecklist(checklist);
+  }
 }

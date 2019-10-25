@@ -57,7 +57,7 @@ class AppFileWriter {
     file.writeAsString(userString);
   }
 
-  Future<Checklist> writeRoutine(Checklist checklist, {isHistory}) async {
+  Future<Checklist> writeChecklist(Checklist checklist, {isHistory}) async {
     File file;
     user.checklists.add(checklist);
     if (isHistory != null) {
@@ -84,9 +84,9 @@ class AppFileWriter {
     await file.writeAsString(userString);
   }
 
-  Future<Checklist> updateRoutine(Checklist checklist) async {
+  Future<Checklist> updateChecklist(Checklist checklist) async {
     await deleteChecklist(checklist.id);
-    await writeRoutine(checklist);
+    await writeChecklist(checklist);
     return checklist;
   }
 }
